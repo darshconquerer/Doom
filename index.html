@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BookEat</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <main>
-        <div>
-
+        <div class="heading">
+            <img src="assets/coming.png" alt="">
         </div>
-        <div>
-
+        <div class="trailer">
+            <video src="assets/videoplayback.mov" loop autoplay muted playsinline></video>
         </div>
-        <div>
-            <input type="id" list="country-list" placeholder="Type your country" autocomplete="off">
+        <div class="country">
+            <input type="text" list="country-list" placeholder="Type your country" autocomplete="off">
             <datalist id = "country-list">
                 <option value="Afghanistan"></option>
                 <option value="Albania"></option>
@@ -63,7 +64,7 @@
                 <option value="Czech Republic"></option>
                 <option value="Denmark"></option>
                 <option value="Djibouti"></option>
-                <option value="Dominica""></option>
+                <option value="Dominica"></option>
                 <option value="Dominican Republic"></option>
                 <option value="Ecuador"></option>
                 <option value="Egypt"></option>
@@ -214,6 +215,8 @@
                 <option value="Zimbabwe"></option>
             </datalist>
         </div>
+        <section class="options" id="options" hidden></section>
     </main>
+    <script src="index.js"></script>    
 </body>
 </html>

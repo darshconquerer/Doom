@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+main{
+    padding-top: 100px;
+}
+.trailer{
+    width: 100%;
+    max-width:fit-content;
+    margin-bottom: 10px;
+}
+.trailer video {
+    width: 100%;
+    height: auto;   
+    display: block;
+}
+.heading{
+    height: 100px;
+    display: grid;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(253, 17, 17);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.heading img{
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    transform: translate(0, -50px);
+    margin: 0;
+}
+.country{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
