@@ -14,8 +14,14 @@
         <div class="trailer">
             <video src="assets/videoplayback.mov" loop autoplay muted playsinline></video>
         </div>
+        <div class="swipe">
+            <button id="swipe-btn" type="button"></button>
+            <div class="player" id="player" hidden>
+                <img id="frame">
+            </div>
+        </div>
         <div class="country">
-            <input type="text" list="country-list" placeholder="Type your country" autocomplete="off">
+            <input type="text" id="country-input" list="country-list" placeholder="Type your country" autocomplete="off">
             <datalist id = "country-list">
                 <option value="Afghanistan"></option>
                 <option value="Albania"></option>
